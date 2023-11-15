@@ -1,0 +1,51 @@
+.card {
+    width: 18rem;
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    float: left;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.card-header {
+    background-color: rgb(119, 119, 202);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5em
+}
+
+.card-body {
+    padding: 1rem 1rem;
+    border-radius: 0.5em  
+}
+
+.card-footer {
+    background-color: rgb(119, 119, 202);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5em
+}
+
+.card-footer > button {
+    margin-right: 5px;
+}
+
+.card-body li {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
