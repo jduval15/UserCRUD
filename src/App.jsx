@@ -10,7 +10,7 @@ function App() {
 
   const [ isDisable, setIsDisable ] = useState(false)
 
-  const url =  `https://users-crud.academlo.tech`
+  const url =  `https://users-crud-1dy5.onrender.com`
 
   const [ users, getUsers, createUser, deleteUser, updateUser ] = useCrud(url)
 
