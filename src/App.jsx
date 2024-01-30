@@ -22,6 +22,7 @@ console.log(users)
 
 const handleNew = () => {
     setIsDisable(false)
+    setInfoUpdate(null); // Reset infoUpdate when creating a new user
 }
 
   return (
