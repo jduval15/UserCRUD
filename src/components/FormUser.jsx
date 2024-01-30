@@ -25,10 +25,10 @@ const FormUser = ({ createUser , infoUpdate, updateUser, setInfoUpdate, isDisabl
         setIsDisable(true)
         reset({
             
-            email: "",
-            password: "",
             first_name: "",
             last_name: "",
+            email: "",
+            password: "",
             birthday: "",
             
         })
@@ -40,10 +40,10 @@ const FormUser = ({ createUser , infoUpdate, updateUser, setInfoUpdate, isDisabl
         setIsDisable(true)
         reset({
             
-            email: "",
-            password: "",
             first_name: "",
             last_name: "",
+            email: "",
+            password: "",
             birthday: "",
             
         })
